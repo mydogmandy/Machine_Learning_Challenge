@@ -16,37 +16,31 @@ In all the models tested, there were no false negatives
   Balanced Accuracy Score:  0.7885466545953005<br>
   High-Risk:  Precision = 0.03 / Recall = 0.70 / f1 = 0.06<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.87 / f1 = 0.93<br>
-<br>
 
 * #### Easy Ensemble AdaBoost Classifier<br>
   Balanced Accuracy Score:  0.9316600714093861<br>
   High-Risk:  Precision = 0.09 / Recall = 0.92 / f1 = 0.16<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.94 / f1 = 0.97<br>
-<br>
 
 * #### Naive Random Oversampling<br>
   Balanced Accuracy Score:  0.6742571941946299<br>
   High-Risk:  Precision = 0.01 / Recall = 0.74 / f1 = 0.02<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.61 / f1 = 0.75<br>
-<br>
 
 * #### SMOTE Oversampling<br>
   Balanced Accuracy Score:  0.6623356588465208<br>
   High-Risk:  Precision = 0.01 / Recall = 0.63 / f1 = 0.02<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.69 / f1 = 0.82<br>
-<br>  
 
 * #### ClusterCentroids Resampler<br>
   Balanced Accuracy Score:  0.547120874973372<br>
   High-Risk:  Precision = 0.01 / Recall = 0.68 / f1 = 0.01<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.41 / f1 = 0.58<br>
-<br>
 
 * #### Combination (Over and Under) SMOTEENN Sampling<br>
   Balanced Accuracy Score:  0.6447701423556762<br>
   High-Risk:  Precision = 0.01 / Recall = 0.72 / f1 = 0.02<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.57 / f1 = 0.72<br>
-<br>  
 
 ✓ Includes a final
 recommendation on the model to

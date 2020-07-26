@@ -4,10 +4,12 @@
 
 Credit risk is an inherently unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans. Therefore, I needed to employ different techniques to train and evaluate models with unbalanced classes. I used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. The goal is to evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
 
+linke to dataset: https://github.com/mydogmandy/Machine_Learning_Challenge/blob/master/Resources/LoanStats_2019Q1.csv
+
 Below are the six different models used, the balanced accuracy scores, precision, recall, and f1 scores.
 Recall (sensitivity) = Percentage of true positives predicted correctly
 Precision = Accuracy of positives predicted correctly
-f1 (harmonic mean) = 
+f1 (harmonic mean) = Weighted average of the Precision & Recall
 
 In all the models tested, 100% of the low-risk loans were correctly identified, but out of the six tested, the Easy Ensemble AdaBoost Classifier performed the best.<br>
 The balanced accuracy score is 0.93, showing the highest percentage of low-risk & high-risk predicted correctly.<br>

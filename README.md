@@ -9,7 +9,10 @@ Recall (sensitivity) = Percentage of true positives predicted correctly
 Precision = Accuracy of positives predicted correctly
 f1 (harmonic mean) = 
 
-In all the models tested, there were no false negatives
+In all the models tested, 100% of the low-risk loans were correctly identified, but out of the six tested, the Easy Ensemble AdaBoost Classifier performed the best.<br>
+The balanced accuracy score is 0.93, showing the highest percentage of low-risk & high-risk predicted correctly.<br>
+The overall recall of 0.92 & 0.94 reflects this as well, as this measures true positives.<br>
+Although the high-risk precision is 0.09, it is due to the the reluctance of the model to commit to high-risk due to the features tested.  With further tweaking of the features tested, this model can be improved.
 
 
 * #### Balanced Random Forest Classifier<br>
@@ -42,8 +45,3 @@ In all the models tested, there were no false negatives
   High-Risk:  Precision = 0.01 / Recall = 0.72 / f1 = 0.02<br>
   Low_Risk:  Precision = 1.00 / Recall = 0.57 / f1 = 0.72<br>
 
-✓ Includes a final
-recommendation on the model to
-use, if any.
-✓ Provides justification for your
-recommendation.

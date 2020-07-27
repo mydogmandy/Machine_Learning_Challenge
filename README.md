@@ -7,8 +7,8 @@ Credit risk is an inherently unbalanced classification problem, as the number of
 link to dataset: https://github.com/mydogmandy/Machine_Learning_Challenge/blob/master/Resources/LoanStats_2019Q1.csv
 
 Below are the six different models used, the balanced accuracy scores, precision, recall, and f1 scores.
-Recall (sensitivity) = Percentage of true positives predicted correctly
-Precision = Accuracy of positives predicted correctly
+Recall (sensitivity) = Percentage of true positives predicted correctly<br>
+Precision = Accuracy of positives predicted correctly<br>
 f1 (harmonic mean) = Weighted average of the Precision & Recall
 
 In all the models tested, 100% of the low-risk loans were correctly identified, but out of the six tested, the Easy Ensemble AdaBoost Classifier performed the best.<br>
